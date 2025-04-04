@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Learn"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".daftar"
+            android:exported="false" />
+        <activity
+            android:name=".lupa_sandi"
+            android:exported="false" />
+        <activity
+            android:name=".home_saya"
+            android:exported="false" />
+        <activity
+            android:name=".home_notifikasi"
+            android:exported="false" />
+        <activity
+            android:name=".home_pesan"
+            android:exported="false" />
+        <activity
+            android:name=".home_teman"
+            android:exported="false" />
+        <activity
+            android:name=".home_beranda"
+            android:exported="false" />
+        <activity
+            android:name=".masuk"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

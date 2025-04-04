@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Menyesuaikan warna status bar -->
+        <item name="android:statusBarColor">@color/black</item> <!-- Sesuaikan warna -->
+        <!-- Menyesuaikan warna background aplikasi -->
+        <item name="android:windowBackground">@color/white</item> <!-- Sesuaikan warna -->
+    </style>
+</resources>
+

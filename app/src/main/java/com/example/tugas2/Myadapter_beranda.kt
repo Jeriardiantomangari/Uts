@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.RecyclerView
 class Myadapter_beranda (private val namalist:ArrayList<itemdata_beranda>):RecyclerView.Adapter<Myadapter_beranda.MyViewHolder>(){
 
 
- class MyViewHolder (itemdata_teman: View):RecyclerView.ViewHolder(itemdata_teman){
-     val gambar : ImageView = itemdata_teman.findViewById(R.id.imageView)
-     val gambar2 : ImageView = itemdata_teman.findViewById(R.id.imageView5)
-     val nama : TextView = itemdata_teman.findViewById(R.id.textView22)
-     val pesan : TextView = itemdata_teman.findViewById(R.id.textView26)
-     val pesan2 : TextView = itemdata_teman.findViewById(R.id.textView23)
+ class MyViewHolder (itemdata_beranda: View):RecyclerView.ViewHolder(itemdata_beranda){
+     val gambar : ImageView = itemdata_beranda.findViewById(R.id.imageView)
+     val gambar2 : ImageView = itemdata_beranda.findViewById(R.id.imageView5)
+     val nama : TextView = itemdata_beranda.findViewById(R.id.textView22)
+     val pesan : TextView = itemdata_beranda.findViewById(R.id.textView26)
+     val pesan2 : TextView = itemdata_beranda.findViewById(R.id.textView23)
 
 
  }

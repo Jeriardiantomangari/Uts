@@ -50,7 +50,7 @@ class home_pesan : AppCompatActivity() {
         Listpesan.add(itemdata_pesan(R.drawable.gambar6,"Sriyanti" , "siapp"))
         Listpesan.add(itemdata_pesan(R.drawable.gambar7,"Risma" , "okeu"))
         Listpesan.add(itemdata_pesan(R.drawable.gambar8,"Edo" , "okee bang "))
-        Listpesan.add(itemdata_pesan(R.drawable.gambar9,"Rafif" , "bangsatt"))
+        Listpesan.add(itemdata_pesan(R.drawable.gambar9,"Hubert" , "oke mas"))
         Listpesan.add(itemdata_pesan(R.drawable.gambar10,"Bayu" , "gass"))
 
 

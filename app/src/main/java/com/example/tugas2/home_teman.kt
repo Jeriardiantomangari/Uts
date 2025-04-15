@@ -51,7 +51,7 @@ class home_teman : AppCompatActivity() {
         Listteman.add(itemdata_teman(R.drawable.gambar6,"Sriyanti" ,  "konfirmasi", "hapus"))
         Listteman.add(itemdata_teman(R.drawable.gambar7,"Risma" ,  "konfirmasi", "hapus"))
         Listteman.add(itemdata_teman(R.drawable.gambar8,"Edo" ,  "konfirmasi", "hapus"))
-        Listteman.add(itemdata_teman(R.drawable.gambar9,"Rafif" ,  "konfirmasi", "hapus"))
+        Listteman.add(itemdata_teman(R.drawable.gambar9,"Hubert" ,  "konfirmasi", "hapus"))
         Listteman.add(itemdata_teman(R.drawable.gambar10,"Bayu" ,  "konfirmasi", "hapus"))
 
 

@@ -51,7 +51,7 @@ class home_notifikasi : AppCompatActivity() {
         Listnotifikasi.add(itemdata_notifikasi(R.drawable.gambar6,"Sriyanti" , "mengirim sesuatu di grub ","23 jam yang lalu"))
         Listnotifikasi.add(itemdata_notifikasi(R.drawable.gambar7,"Risma" , "memberikan anda like di postingan anda","24 jam yang lalu"))
         Listnotifikasi.add(itemdata_notifikasi(R.drawable.gambar8,"Edo" , "mengomentari foto anda","11 maret pukul 16.16"))
-        Listnotifikasi.add(itemdata_notifikasi(R.drawable.gambar9,"Rafif" , "mengundang anda bergabung ke grub ","14 maret pukul 01.12"))
+        Listnotifikasi.add(itemdata_notifikasi(R.drawable.gambar9,"Hubert" , "mengundang anda bergabung ke grub ","14 maret pukul 01.12"))
         Listnotifikasi.add(itemdata_notifikasi(R.drawable.gambar10,"Bayu" , "mengundang anda menyukai postingan","14 maret pikul 22.13"))
 
 

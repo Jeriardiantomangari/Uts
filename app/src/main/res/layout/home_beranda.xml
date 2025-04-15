@@ -14,10 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#dddddd"
-        android:elevation="8dp"
         android:orientation="horizontal"
         android:padding="10dp"
-        android:weightSum="5"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <!-- Home Menu -->
@@ -134,9 +132,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listberanda"
-        android:layout_width="408dp"
-        android:layout_height="585dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="409dp"
+        android:layout_height="497dp"
+        android:layout_marginBottom="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -144,7 +142,7 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="24dp"
         android:text="Beranda"
         android:textColor="#228BE6"
         android:textSize="25dp"
@@ -152,7 +150,19 @@
         app:layout_constraintBottom_toTopOf="@+id/listberanda"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538" />
+        app:layout_constraintVertical_bias="0.081" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/liststory"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/listberanda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.123" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

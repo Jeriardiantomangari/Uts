@@ -3,9 +3,11 @@
     <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Menyesuaikan warna status bar -->
-        <item name="android:statusBarColor">@color/black</item> <!-- Sesuaikan warna -->
+        <item name="android:statusBarColor">@color/black</item>
         <!-- Menyesuaikan warna background aplikasi -->
-        <item name="android:windowBackground">@color/white</item> <!-- Sesuaikan warna -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Menghilangkan animasi transisi -->
+        <item name="android:windowAnimationStyle">@null</item>
     </style>
 </resources>
-

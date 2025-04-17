@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/beranda"
+        android:icon="@drawable/home"
+        android:title="Beranda"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/teman"
+        android:icon="@drawable/friends"
+        android:title="Teman"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/pesan"
+        android:icon="@drawable/message"
+        android:title="Pesan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/notifikasi"
+        android:icon="@drawable/bell"
+        android:title="Notifikasi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/saya"
+        android:icon="@drawable/person2"
+        android:title="Saya"
+        app:showAsAction="never"/>
+</menu>

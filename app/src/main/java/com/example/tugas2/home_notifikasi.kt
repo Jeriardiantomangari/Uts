@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tugas2.databinding.HomeNotifikasiBinding
-
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class home_notifikasi : AppCompatActivity() {
@@ -23,22 +23,41 @@ class home_notifikasi : AppCompatActivity() {
         binding = HomeNotifikasiBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.saya.setOnClickListener {
-            val Intentmasuk = Intent(this, home_saya::class.java)
-            startActivity(Intentmasuk)
+        // Bottom Navigation
+        val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigation.setOnItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.beranda-> {
+                    val intent = Intent(this, home_beranda::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.teman-> {
+                    val intent = Intent(this, home_teman::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.pesan -> {
+                    val intent = Intent(this, home_pesan::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.notifikasi-> {
+
+                    true
+                }
+                R.id.saya -> {
+                    val intent = Intent(this, home_saya::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            }
         }
-        binding.pesan.setOnClickListener {
-            val Intentmasuk = Intent(this, home_pesan::class.java)
-            startActivity(Intentmasuk)
-        }
-        binding.teman.setOnClickListener {
-            val Intentmasuk = Intent(this, home_teman::class.java)
-            startActivity(Intentmasuk)
-        }
-        binding.beranda.setOnClickListener {
-            val Intentmasuk = Intent(this, home_beranda::class.java)
-            startActivity(Intentmasuk)
-        }
+
+        bottomNavigation.selectedItemId = R.id.notifikasi
+
+
 
         NotifikasiRecyclerView=findViewById(R.id.listnotifikasi)
         Listnotifikasi= java.util.ArrayList()
